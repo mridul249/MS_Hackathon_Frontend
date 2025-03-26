@@ -1,8 +1,9 @@
 # Project Name
 
 ## 🔗 Links
-- **Video Walkthrough:** [https://www.loom.com/share/8484e1cde44349018bcfc83f8a8d732e?sid=a9045e86-7f97-4c05-b0d2-a2c2a264388c](#)
-- **Website:** [https://legalbotiitp.netlify.app/](#)
+- **Video Walkthrough:** [https://www.loom.com/share/8484e1cde44349018bcfc83f8a8d732e?sid=a9045e86-7f97-4c05-b0d2-a2c2a264388c](https://www.loom.com/share/8484e1cde44349018bcfc83f8a8d732e?sid=a9045e86-7f97-4c05-b0d2-a2c2a264388c)
+- **Website:** [https://legalbotiitp.netlify.app/](https://legalbotiitp.netlify.app/)
+
 
 
 ## 🚀 Overview
