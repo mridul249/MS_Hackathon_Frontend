@@ -1,12 +1,30 @@
-# React + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Links
+- **Video Walkthrough:** [https://www.loom.com/share/8484e1cde44349018bcfc83f8a8d732e?sid=a9045e86-7f97-4c05-b0d2-a2c2a264388c](#)
+- **Website:** [https://legalbotiitp.netlify.app/](#)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview
+A brief description of your project, what it does, and its main features.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📸 Screenshots
+Include multiple screenshots showcasing the UI and functionality.
+![Screenshot 1](https://res.cloudinary.com/dfvniripn/image/upload/v1742975660/Screenshot_2025-03-26_at_1.18.36_PM_mauszs.png)
+![Screenshot 2](https://res.cloudinary.com/dfvniripn/image/upload/v1742975660/Screenshot_2025-03-26_at_1.14.37_PM_stndme.png)
+![Screenshot 3](https://res.cloudinary.com/dfvniripn/image/upload/v1742975661/Screenshot_2025-03-26_at_1.17.07_PM_hcukee.png)
+
+
+
+## 🛠️ Tech Stack
+- **Frontend:** Vite + React + Tailwind CSS
+
+## 🏗️ Installation & Setup
+```sh
+git clone https://github.com/your-repo.git
+cd MS_Hackathon_Frontend
+npm install
+npm run dev
+```
