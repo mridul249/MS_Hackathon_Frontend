@@ -49,7 +49,7 @@ function ChatPage() {
   // Load chat IDs for the sidebar
   useEffect(() => {
     axiosInstance
-      .get("http://localhost:5001/chats")
+      .get("https://ms-hackathon-backend-js.onrender.com/chats")
       .then((res) => {
         setChats(res.data);
       })
@@ -68,7 +68,7 @@ function ChatPage() {
 
     // Then always refetch from server to ensure it's current
     axiosInstance
-      .get(`http://localhost:5001/chat/${chatId}`)
+      .get(`https://ms-hackathon-backend-js.onrender.com/chat/${chatId}`)
       .then((res) => {
         const data = res.data;
         const conv = [];
@@ -101,7 +101,7 @@ function ChatPage() {
   const handleNewChat = async () => {
     try {
       const res = await axiosInstance.post(
-        "http://localhost:5001/api/v1/users/newChat",
+        "https://ms-hackathon-backend-js.onrender.com/api/v1/users/newChat",
         {}
       );
       const data = res.data;
@@ -142,7 +142,7 @@ function ChatPage() {
 
     try {
       const res = await axiosInstance.post(
-        `http://localhost:5001/chat/${chatId}`,
+        `https://ms-hackathon-backend-js.onrender.com/chat/${chatId}`,
         {
           question: input,
           history: newHistory,
@@ -171,10 +171,15 @@ function ChatPage() {
     setLoading(false);
   };
 
-  const handleLogout = () => {
-    document.cookie = "token=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT;";
+const handleLogout = async () => {
+    try {
+        // Call the backend logout endpoint which clears the httpOnly cookie.
+        await axiosInstance.post("https://ms-hackathon-backend-js.onrender.com/api/v1/users/logout");
+    } catch (err) {
+        console.error("Logout error:", err);
+    }
     navigate("/login");
-  };
+};
 
   return (
     <div className="h-screen flex">
